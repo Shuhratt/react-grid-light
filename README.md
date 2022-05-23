@@ -4,7 +4,7 @@
 npm i react-grid-light
 ```
 #### use
-```
+```js
 import React from 'react';
 import Grid from "react-grid-light"
 ...
