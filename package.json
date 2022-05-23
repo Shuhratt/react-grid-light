@@ -2,7 +2,7 @@
   "name": "react-grid-light",
   "version": "1.0.0",
   "description": "React Grid Light",
-  "main": "src/index.tsx",
+  "main": "index.js",
   "scripts": {
     "dev": "npx webpack serve"
   },
