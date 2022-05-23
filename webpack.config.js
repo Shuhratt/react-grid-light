@@ -29,9 +29,4 @@ module.exports = {
       scriptLoading: "blocking"
     })
   ],
-  performance: {
-    hints: false,
-    maxEntrypointSize: 512000,
-    maxAssetSize: 512000
-  }
 }
