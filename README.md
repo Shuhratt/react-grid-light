@@ -1,10 +1,10 @@
 # React-Grid-Light
-####install
+#### install
 ```
 npm i react-grid-light
 ```
-####use
-```js
+#### use
+```
 import React from 'react';
 import Grid from "react-grid-light"
 ...
