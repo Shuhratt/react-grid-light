@@ -1,10 +1,10 @@
 {
   "name": "react-grid-light",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Grid Light",
-  "main": "index.js",
+  "main": "./lib/Grid.js",
   "scripts": {
-    "dev": "npx webpack serve"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,10 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.18.0",
     "@babel/plugin-proposal-class-properties": "^7.17.12",
@@ -36,14 +39,12 @@
     "babel-loader": "^8.2.5",
     "classnames": "^2.3.1",
     "eslint": "^8.16.0",
-    "html-webpack-plugin": "^5.5.0",
     "prettier": "^2.6.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "ts-loader": "^9.3.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.0"
+    "webpack-cli": "^4.9.2"
   }
 }

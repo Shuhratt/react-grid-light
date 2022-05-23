@@ -1,32 +1,23 @@
-const HtmlWebPackPlugin = require( 'html-webpack-plugin' );
 const path = require( 'path' );
 
 module.exports = {
-  mode: "development",
-  entry: {
-   index: './src/index.tsx'
-  },
-  resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
-  },
+  mode: 'production',
+  entry: './src/Grid.tsx',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    chunkFilename: '[name].[chunkhash].js'
+    path: path.resolve('lib'),
+    filename: 'Grid.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-    ],
-  },
-  plugins: [
-    new HtmlWebPackPlugin({
-      template: path.resolve( __dirname, 'public/index.html' ),
-      filename: 'index.html',
-      scriptLoading: "blocking"
-    })
-  ],
+        exclude: /(node_modules)/,
+        use: [
+          'babel-loader',
+          'ts-loader'
+        ]
+      }
+    ]
+  }
 }
