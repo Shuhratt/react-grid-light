@@ -1,4 +1,5 @@
 src
 .babelrc
 __tests__
+.idea
 webpack.config.js
