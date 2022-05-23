@@ -1,0 +1,24 @@
+{
+  "name": "react-grid-light",
+  "version": "1.0.0",
+  "description": "React Grid Light",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuhratt/react-grid-light.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "grid"
+  ],
+  "author": "Shuhrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shuhratt/react-grid-light/issues"
+  },
+  "homepage": "https://github.com/Shuhratt/react-grid-light#readme"
+}
