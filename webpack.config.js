@@ -4,7 +4,9 @@ module.exports = {
   context: path.join(__dirname),
   mode: 'production',
   entry: {
-    modules: ['./src/Grid.tsx', './src/Row.tsx', './src/Column.tsx'],
+    Grid: ['./src/Grid.tsx'],
+    Row: ['./src/Row.tsx'],
+    Column: ['./src/Column.tsx'],
   },
   output: {
     path: path.resolve('lib'),
