@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { GridProps } from './Grid.props';
+import type { GridProps } from './Grid.props';
 
 const Grid: FC<GridProps<HTMLElement>> = (props) => {
   const {

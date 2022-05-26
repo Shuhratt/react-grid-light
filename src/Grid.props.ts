@@ -2,9 +2,9 @@ import { HTMLAttributes, ReactNode } from 'react';
 
 export type GridProps<T> = {
   children: ReactNode;
-  columns: number | string;
-  columnGap: number | string;
-  rowGap: string;
-  rows: string;
+  columns?: number | string;
+  rows?: string;
+  columnGap?: number | string;
+  rowGap?: string;
   className?: string;
 } & HTMLAttributes<T>;
