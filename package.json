@@ -1,8 +1,8 @@
 {
   "name": "react-grid-light",
-  "version": "1.0.7",
+  "version": "1.1.7",
   "description": "React Grid Light",
-  "main": "./lib/Grid.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "webpack"
   },
@@ -37,7 +37,6 @@
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "babel-loader": "^8.2.5",
-    "classnames": "^2.3.1",
     "eslint": "^8.16.0",
     "prettier": "^2.6.2",
     "react": "^18.1.0",
