@@ -1,5 +1,4 @@
-src
-.babelrc
 __tests__
 .idea
-webpack.config.js
+.storybook
+src/stories

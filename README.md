@@ -22,6 +22,8 @@ const App = () => {
             columnGap='normal'
             rowGap='normal'
         >
+        <Column>
+        <Row>
         ...
         children
         ...
