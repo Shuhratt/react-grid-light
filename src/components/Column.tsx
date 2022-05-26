@@ -1,11 +1,5 @@
-import React, { FC, ReactNode } from 'react';
-
-type ColumnProps = {
-  children: ReactNode;
-  className?: string;
-  gridColumnStart?: string;
-  gridColumnEnd?: string;
-};
+import React, { FC } from 'react';
+import type { ColumnProps } from './Column.types';
 
 const Column: FC<ColumnProps> = (props) => {
   const {

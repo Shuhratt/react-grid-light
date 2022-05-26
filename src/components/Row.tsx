@@ -1,11 +1,5 @@
-import React, { FC, ReactNode } from 'react';
-
-type RowProps = {
-  children: ReactNode;
-  className?: string;
-  gridRowStart?: string;
-  gridRowEnd?: string;
-};
+import React, { FC } from 'react';
+import type { RowProps } from './Row.types';
 
 const Row: FC<RowProps> = (props) => {
   const {
